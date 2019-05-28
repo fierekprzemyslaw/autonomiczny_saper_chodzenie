@@ -1,0 +1,11 @@
+weź początkowe v
+
+dla kazdego następnika początkowe v:
+    kierunek = weź kierunek od(początkowe_v, następnik)
+    odleglosc = wyznacz najmniejsza odleglosc do celu wśród celów w kierunku(kierunek)
+    if odleglosc != None:
+        nastepnik.priorytet = odleglosc
+    else:
+        nastepnik.priorytet = nieskonczonosc
+    
+        
